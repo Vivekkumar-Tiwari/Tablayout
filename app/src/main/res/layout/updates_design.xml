@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_vertical"
+            android:text="Status"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="70dp"
+            android:src="@drawable/img_7"
+            android:layout_marginLeft="250dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/img_1"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="10dp"
+            app:shapeAppearanceOverlay="@style/circle"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="My status"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap to add status update"
+            android:layout_marginLeft="12dp"
+            android:textColor="#9C9595"
+            android:textStyle="bold"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="20dp"
+         android:text="Recentes updates"
+         android:textSize="15dp"
+         android:textStyle="bold"
+         android:layout_marginBottom="10dp"
+         android:textColor="#817E7E"
+         android:layout_marginLeft="12dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgae1"
+            android:layout_marginLeft="12dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/img"
+            app:strokeWidth="4dp"
+            app:strokeColor="#7ED382"
+            app:shapeAppearanceOverlay="@style/circle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="Rozy"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Draft"
+                android:layout_marginLeft="12dp"
+                android:textColor="#817C7C"
+                android:textStyle="italic"
+                android:id="@+id/text2"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
